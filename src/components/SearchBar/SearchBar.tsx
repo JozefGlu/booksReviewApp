@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBar = () => {
+const SearchBar: React.FC = () => {
   return (
     <form className="flex items-center justify-evenly w-full py-2">
       <input

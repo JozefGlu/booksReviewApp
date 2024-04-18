@@ -2,7 +2,7 @@ import React from 'react';
 import { SearchBar } from '../SearchBar';
 import { HeaderSection } from '../HeaderSection';
 
-const MainArticle = () => {
+const MainArticle: React.FC = () => {
   return (
     <div className="flex flex-wrap justify-center">
       <SearchBar />

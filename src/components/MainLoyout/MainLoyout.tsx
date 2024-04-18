@@ -3,7 +3,7 @@ import { Navigation } from '../Navigation';
 import { Footer } from '../Footer';
 import { MainArticle } from '../MainArticle';
 
-const Loyout = () => {
+const Loyout: React.FC = () => {
   return (
     <article className="h-screen w-screen font-montserrat dark:bg-black">
       <Navigation />
