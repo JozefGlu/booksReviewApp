@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const DarkModeSwitch = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = React.useState<boolean>(false);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);

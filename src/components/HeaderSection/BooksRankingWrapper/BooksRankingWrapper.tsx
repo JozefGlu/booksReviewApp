@@ -1,9 +1,7 @@
 import React from 'react';
 
-const BooksRanking = () => {
-  return (
-
-  );
+const BooksRanking: React.FC = () => {
+  return <></>;
 };
 
 export { BooksRanking };

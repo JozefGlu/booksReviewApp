@@ -1,4 +1,3 @@
-import { DarkModeSwitch } from '../DarkModeSwitch';
 import { NavButton } from './NavButton';
 
 const Navigation = () => {
